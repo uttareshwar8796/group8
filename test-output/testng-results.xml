@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-19T13:53:15 IST" name="Default suite" finished-at="2022-11-19T13:54:14 IST" duration-ms="59081">
+    <groups>
+    </groups>
+    <test started-at="2022-11-19T13:53:15 IST" name="Default test" finished-at="2022-11-19T13:54:14 IST" duration-ms="59081">
+      <class name="TestClass.TestClass1">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestClass.TestClass1@1fa268de]" started-at="2022-11-19T13:53:15 IST" name="openBrowser" finished-at="2022-11-19T13:53:44 IST" duration-ms="29030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestClass.TestClass1@1fa268de]" started-at="2022-11-19T13:53:44 IST" name="Login" finished-at="2022-11-19T13:53:52 IST" duration-ms="8028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="TC1()[pri:0, instance:TestClass.TestClass1@1fa268de]" started-at="2022-11-19T13:53:52 IST" name="TC1" finished-at="2022-11-19T13:53:54 IST" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:TestClass.TestClass1@1fa268de]" started-at="2022-11-19T13:53:54 IST" name="Logout" finished-at="2022-11-19T13:53:58 IST" duration-ms="3488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC1 status=SUCCESS method=TestClass1.TC1()[pri:0, instance:TestClass.TestClass1@1fa268de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestClass.TestClass1@1fa268de]" started-at="2022-11-19T13:53:58 IST" name="Login" finished-at="2022-11-19T13:54:04 IST" duration-ms="6325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="TC2()[pri:0, instance:TestClass.TestClass1@1fa268de]" started-at="2022-11-19T13:54:04 IST" name="TC2" finished-at="2022-11-19T13:54:07 IST" duration-ms="2586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method is-config="true" signature="Logout(org.testng.ITestResult)[pri:0, instance:TestClass.TestClass1@1fa268de]" started-at="2022-11-19T13:54:07 IST" name="Logout" finished-at="2022-11-19T13:54:12 IST" duration-ms="5122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC2 status=SUCCESS method=TestClass1.TC2()[pri:0, instance:TestClass.TestClass1@1fa268de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="CloseBroser()[pri:0, instance:TestClass.TestClass1@1fa268de]" started-at="2022-11-19T13:54:12 IST" name="CloseBroser" finished-at="2022-11-19T13:54:14 IST" duration-ms="2299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroser -->
+      </class> <!-- TestClass.TestClass1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
